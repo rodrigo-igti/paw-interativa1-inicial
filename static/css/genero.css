@@ -1,0 +1,83 @@
+table {
+    margin: 30px auto;
+    text-align: center;
+}
+
+thead {
+    background: #20c997;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid;
+    border-color: black;
+    padding: 8px 15px;
+}
+
+form label {
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    padding-bottom: 0.5em;
+}
+
+.input-padrao {
+    display: block;
+    margin: auto;
+    padding: 10px 25px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.enviar-button {
+    background: #20c997;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+.list-button {
+    border: none;
+    border-radius: 5px;
+    padding: 2px 10px;
+    font-size: 1em;
+}
+
+.apagar-button {
+    background: mediumslateblue;
+}
+
+.editar-button {
+    background: darkseagreen;
+}
+
+.enviar:hover {
+    color: white;
+    background: #00a293;
+    transform: scale(1.2);
+}
+
+.conteiner-center {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 20px;
+    border: none;
+}
+
+.div-conteiner-center {
+    padding-top: 5px;
+    width: 100%;
+}
+
+.errorlist li {
+    background-color: white;
+    color: red;
+}
+
+.errorlist {
+    background-color: white;
+}
